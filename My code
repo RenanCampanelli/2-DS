@@ -1,0 +1,7 @@
+Dias_alugados = float(input("quantos dias você ficou no hotel?"))
+
+preço_por_dia = 100.00
+
+custo_total = (Dias_alugados * preço_por_dia)
+
+print(f"O total a pagar é {custo_total}")
