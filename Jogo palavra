@@ -1,0 +1,18 @@
+print("bem vindo ao jogo")
+
+palavra_secreta= gastar
+
+acertou = false
+enforcou = false
+
+while (not acertou and not enforcou ):
+# se ele não acertar vai para a forca
+
+chute= input('qual é a letra')
+
+for letra in palavra_secreta:
+ if(chute == letra):
+  print("chute")
+
+
+print("fim de jogo")
