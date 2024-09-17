@@ -1,0 +1,9 @@
+cidades = []
+
+for i in range(3):
+    cidade = input(f"Informe o nome da cidade {i+1}: ")
+    cidades.append(cidade)  # Adiciona o nome da cidade à lista
+
+print("\nAs cidades informadas foram:")
+for cidade in cidades:
+    print(cidade)
