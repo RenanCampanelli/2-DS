@@ -1,0 +1,19 @@
+deposito_inicial = float(input("Informe o depósito inicial: R$ "))
+taxa_juros = float(input("Informe a taxa de juros mensal (em %): "))
+
+taxa_juros /= 100
+
+saldo = deposito_inicial
+total_juros = 0
+
+print("\nMês | Saldo")
+print("-------------------")
+for mes in range(1, 25):
+    juros = saldo * taxa_juros
+    saldo += juros
+    total_juros += juros
+
+    print(f"{mes:2}  | R$ {saldo:.2f}")
+
+
+print(f"\nTotal ganho com juros após 24 meses: R$ {total_juros:.2f}")
