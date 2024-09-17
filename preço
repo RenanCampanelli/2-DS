@@ -1,0 +1,8 @@
+preço = float(input("digite o preço do produto"))
+desconto = float(input("digite o percentual do desconto"))
+valor_do_desconto = preço* desconto/100
+
+a_pagar = preço -valor_do_desconto
+print("um desconto de %5 em uma mecadoria de R$1000")
+
+print(vale %7 valor_do_desconto)print"O Valor a pagar é de % a_pagar)
