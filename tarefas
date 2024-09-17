@@ -1,0 +1,114 @@
+tarefa1 = input("digite sua tarefa\n ")
+print(tarefa1 + "  foi adicionada como tarefa\n ")
+
+prazo = (input("deseja adicionar um prazo ?\n "))
+
+if prazo == "sim":
+  prazo = (input("digite seu prazo\n "))
+  print(prazo + "seu prazo foi realizado\n ")
+else:
+
+  print(tarefa1 + "foi  adicionda como tarefa\n ")
+
+prioridade = (input("esta tarefa é uma prioridade ?\n "))
+
+if prioridade == "sim":
+  (input("digite o nivel da sua prioridade "))
+
+elif prioridade == "não":
+  print("essa tarefa não é classficada como uma prioridade")
+
+if prioridade == "alta":
+  print("esta tarefa foi adicionada como prioridade alta ")
+
+elif prioridade == "media":
+  print("sua tarefa foi adicionada como prioridadse media ")
+
+elif prioridade == "baixa":
+  print("sua tarefa foi adicionada como prioridade baixa ")
+  
+tarefa1 = input("gostaria de adicionar sua segunda tarefa ?")
+
+if tarefa1 == "não":
+  print("voce voltara para o menu principal ")
+
+elif tarefa1 == "sim":
+  print("va para sua segunda tarefa  ")
+
+# segunda tarefa 
+
+tarefa2 = input("digite sua tarefa \n ") 
+print(tarefa2 + "  foi adicionada como tarefa \n")
+
+prazo = (input("deseja adicionar um prazo ?\n "))
+
+if prazo == "sim":
+  prazo = (input("digite seu prazo\n "))
+  print(prazo + "seu prazo foi realizado ")
+
+else:
+  print(tarefa2 + "foi  adicionda como tarefa ")
+
+prioridade = (input("esta tarefa é uma prioridade ?\n "))
+
+if prioridade == "sim":
+  (input("digite o nivel da sua prioridade\n "))
+
+elif prioridade == "não":
+  print("essa tarefa não é classficada como uma prioridade\n")
+
+if prioridade == "alta":
+  print("esta tarefa foi adicionada como prioridade alta \n")
+
+elif prioridade == "media":
+  print("sua tarefa foi adicionada como prioridadse media\n ")
+
+elif prioridade == "baixa":
+ print("sua tarefa foi adicionada como prioridade baixa\n ")
+
+tarefa2 = ("gostaria de adicionar sua segunda tarefa ?\n")
+if tarefa2 == "não":
+  print("voce voltara para o menu principal ")
+
+if tarefa2 == "sim":
+  tarefa2 = input("digite sua terceira tarefa?\n ")
+ 
+
+
+ 
+   #terceira tarefa 
+
+  
+tarefa3 = input("digite sua terceira  tarefa ")
+print(tarefa3 + "  foi adicionada como tarefa") 
+
+prazo = (input("deseja adicionar um prazo ? "))
+
+if prazo == "sim":
+  prazo = (input("digite seu prazo\n "))
+  print(prazo + "seu prazo foi realizado ")
+else:
+
+  print(tarefa1 + "foi  adicionda como tarefa\n ")
+
+prioridade = (input("esta tarefa é uma prioridade ?\n "))
+if prioridade == "sim":
+  (input("digite o nivel da sua prioridade \n"))
+
+elif prioridade == "não":
+  print("essa tarefa não é classficada como uma prioridade\n")
+
+if prioridade == "alta":
+  print("esta tarefa foi adicionada como prioridade alta \n")
+
+elif prioridade == "media":
+  print("sua tarefa foi adicionada como prioridadse media\n ")
+
+elif prioridade == "baixa":
+  print("sua tarefa foi adicionada como prioridade baixa\n ")
+
+if tarefa3 == "não":
+  print("voce voltara para o menu principal\n ")
+
+if tarefa3 == "sim":
+  print("suas tarefas registradas com sucesso\n")
