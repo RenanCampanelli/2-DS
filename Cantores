@@ -1,0 +1,14 @@
+  =[ 'iza','jorge e matheus','fernando e sorocaba','tiaguinho']
+
+cantores = []
+palco = 0
+
+for i in range (4):
+  cantores.append(input('digite o nome dos cantores que iram apresentar  '))
+  if cantores[i] == v[i]:
+    palco = palco + 1
+  print(palco)
+  cantores.remove(cantores[3])
+  novo_cantor = input('leonardo')
+  cantores.append(novo_cantor)
+  # cantor que nao vai apresentar
