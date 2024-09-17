@@ -1,0 +1,21 @@
+def exibir_menu():
+    print("\nEscolha uma das opções:")
+    print("1 - Olá mundo")
+    print("2 - Eu programo em Python")
+    print("3 - Laços de repetição")
+
+while True:
+    exibir_menu()  # Exibe o menu
+    opcao = input("Digite o número da sua escolha: ")
+
+    if opcao == '1':
+        print("\nVocê escolheu: Olá mundo!")
+        break  # Encerra o loop
+    elif opcao == '2':
+        print("\nVocê escolheu: Eu programo em Python!")
+        break  # Encerra o loop
+    elif opcao == '3':
+        print("\nVocê escolheu: Laços de repetição!")
+        break  # Encerra o loop
+    else:
+        print("\nOpção inválida. Por favor, escolha uma opção válida (1, 2 ou 3).")
