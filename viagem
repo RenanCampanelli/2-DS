@@ -1,0 +1,4 @@
+distancia = float(input("digita a distancia que voce quer percorrer em KM "))
+velocidade = float(input("digite a velocidade media permitida da estrada"))
+tempo_de_viagem = distancia / velocidade
+print (f"a velociade percorrida vai ser de {tempo_de_viagem}")
