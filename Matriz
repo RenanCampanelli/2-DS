@@ -1,0 +1,9 @@
+def soma_matrizes(A, B); 
+    #Assumindo que A e B tem as mesmas dimensões
+    linha = len(A) 
+    colunas = len(B)
+c = [(0 for _ in range(colunas)) for _ in range(linhas)]
+
+for i in range(linhas):
+    for i in range(colunas):
+        c[i[j] = A[i][j] + B[i][j]]
